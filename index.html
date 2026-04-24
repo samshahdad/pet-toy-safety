@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>3DPawsnToys — Pet Toy Safety & Product Information</title>
+  <meta name="description" content="Safety information, materials, chew-strength guidance and care instructions for 3DPawsnToys 3D-printed pet toys." />
+  <meta name="theme-color" content="#ef6a2a" />
+  <link rel="icon" type="image/png" href="assets/logo.png" />
+  <style>
+    :root {
+      --orange: #ef6a2a;
+      --orange-dark: #c9501a;
+      --blue: #1f4ea1;
+      --text: #1a1a1a;
+      --muted: #555;
+      --bg: #ffffff;
+      --card: #fafafa;
+      --border: #e5e5e5;
+      --warn-bg: #fff6ed;
+      --warn-border: #f0b27a;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.55;
+      -webkit-font-smoothing: antialiased;
+    }
+    header {
+      background: linear-gradient(135deg, #fff2e6 0%, #ffffff 100%);
+      border-bottom: 1px solid var(--border);
+      padding: 28px 20px 22px;
+      text-align: center;
+    }
+    header img {
+      width: 120px;
+      height: 120px;
+      object-fit: contain;
+      display: block;
+      margin: 0 auto 10px;
+    }
+    header h1 {
+      margin: 4px 0 4px;
+      font-size: 1.45rem;
+      letter-spacing: 0.2px;
+    }
+    header .brand {
+      color: var(--orange);
+      font-weight: 700;
+    }
+    header p.tagline {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+    main {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 24px 20px 64px;
+    }
+    section {
+      margin: 28px 0;
+    }
+    h2 {
+      font-size: 1.15rem;
+      margin: 0 0 10px;
+      color: var(--blue);
+      border-bottom: 2px solid var(--orange);
+      padding-bottom: 4px;
+      display: inline-block;
+    }
+    .warning {
+      background: var(--warn-bg);
+      border: 1px solid var(--warn-border);
+      border-left: 5px solid var(--orange);
+      padding: 14px 16px;
+      border-radius: 8px;
+      margin: 20px 0;
+    }
+    .warning strong { color: var(--orange-dark); }
+    ul {
+      padding-left: 22px;
+      margin: 10px 0;
+    }
+    ul li { margin: 6px 0; }
+    .materials {
+      display: grid;
+      gap: 10px;
+      margin-top: 10px;
+    }
+    .material {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 10px 14px;
+    }
+    .material b { color: var(--blue); }
+    .contact-box {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 14px 16px;
+      text-align: center;
+    }
+    .contact-box a {
+      color: var(--orange-dark);
+      font-weight: 600;
+      text-decoration: none;
+    }
+    .contact-box a:hover { text-decoration: underline; }
+    footer {
+      text-align: center;
+      font-size: 0.8rem;
+      color: var(--muted);
+      padding: 24px 20px 40px;
+      border-top: 1px solid var(--border);
+      margin-top: 20px;
+    }
+    .muted { color: var(--muted); font-size: 0.9rem; }
+    @media (max-width: 480px) {
+      header img { width: 96px; height: 96px; }
+      header h1 { font-size: 1.2rem; }
+      h2 { font-size: 1.05rem; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="assets/logo.png" alt="3DPawsnToys logo" />
+    <h1><span class="brand">3DPawsnToys</span> — Pet Toy Safety & Product Information</h1>
+    <p class="tagline">Please read before giving the toy to your pet.</p>
+  </header>
+
+  <main>
+
+    <div class="warning">
+      <strong>Safety Warning:</strong> Always supervise your pet during play.
+      No pet toy is indestructible. Inspect regularly and discard if damaged —
+      loose pieces may cause choking, dental injury or intestinal blockage.
+    </div>
+
+    <section>
+      <h2>What this toy is made of</h2>
+      <p>Our toys are 3D printed from one of the following pet‑safe thermoplastics.
+         The specific material used for your toy is marked on the packaging.</p>
+      <div class="materials">
+        <div class="material"><b>PLA</b> (Polylactic Acid) — plant‑based, rigid. Best for <em>light chewers</em> and fetch toys.</div>
+        <div class="material"><b>PETG</b> (Polyethylene Terephthalate Glycol) — tougher, slightly flexible. Good for <em>moderate chewers</em>.</div>
+        <div class="material"><b>TPU</b> (Thermoplastic Polyurethane) — flexible and rubber‑like. Best for chewable balls and gentle tug toys.</div>
+      </div>
+      <p class="muted">All materials are non‑toxic and food‑contact safe in their raw form.
+         <b>They are not intended to be eaten.</b> This toy is not a treat or food item.</p>
+    </section>
+
+    <section>
+      <h2>Chew strength guidance</h2>
+      <p>These toys are designed for <b>light to moderate chewers</b>.</p>
+      <p>They are <b>not recommended for aggressive or "power" chewers</b> —
+         pets that routinely destroy rubber or nylon toys within minutes.
+         For power chewers, please choose a commercial toy rated specifically
+         for heavy chewing.</p>
+      <p>If you're unsure which category your pet falls into, start with
+         short supervised play sessions and inspect the toy afterwards.</p>
+    </section>
+
+    <section>
+      <h2>Size guidance</h2>
+      <p>Always choose a toy that is <b>larger than your pet can fit fully
+         inside its mouth</b>. A toy small enough to be swallowed whole is a
+         choking and intestinal blockage risk, regardless of material.</p>
+      <p>If your pet grows, or you buy for a larger pet, re‑check the size.</p>
+    </section>
+
+    <section>
+      <h2>Supervision &amp; inspection</h2>
+      <ul>
+        <li><b>Always supervise</b> your pet during play with this toy.</li>
+        <li><b>Inspect the toy before and after every play session.</b></li>
+        <li><b>Discard the toy immediately</b> if it becomes cracked, chipped,
+            broken, or chewed into small pieces.</li>
+        <li>Loose fragments may cause <b>choking, dental damage, or
+            intestinal obstruction</b>, which can be life‑threatening.</li>
+        <li>Do not allow your pet to ingest any part of this toy. If ingestion
+            is suspected, <b>contact your veterinarian immediately</b>.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Not suitable for children</h2>
+      <p>This is a <b>pet toy, not a human toy</b>. Keep away from children
+         under 3 years of age due to small parts and choking hazard.
+         Not edible.</p>
+    </section>
+
+    <section>
+      <h2>Cleaning &amp; care</h2>
+      <ul>
+        <li>Clean with <b>mild soap and warm water</b>.</li>
+        <li><b>Do not</b> microwave, boil, put in a dishwasher, or expose to
+            open flame.</li>
+        <li>Store away from direct sunlight and extreme heat — PLA in
+            particular can soften above ~55 °C / 130 °F.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Liability</h2>
+      <p>This product is used <b>at the owner's own risk</b>. The manufacturer
+         accepts no responsibility for injury, illness, or damage arising
+         from misuse, lack of supervision, or failure to replace a worn or
+         damaged toy. Use of this product constitutes acceptance of these
+         terms.</p>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <div class="contact-box">
+        <p style="margin:0 0 6px;">For questions, replacements or to report an issue:</p>
+        <a href="mailto:contact@3dpawsandtoys.com">contact@3dpawsandtoys.com</a>
+        <p class="muted" style="margin:10px 0 0;">Batch / date code: printed on packaging</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    &copy; <span id="year"></span> 3DPawsnToys. All rights reserved.<br />
+    Last updated: April 2026.
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
