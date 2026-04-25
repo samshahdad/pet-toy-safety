@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>3DPawsnToys Sticker Preview - 80x50mm</title>
+<style>
+  @page { size: 80mm 50mm; margin: 0; }
+  body { background: #ddd; margin: 0; padding: 24px; font-family: Helvetica, Arial, sans-serif; }
+  .sticker {
+    width: 80mm; height: 50mm; box-sizing: border-box;
+    background: #fff; padding: 2.5mm; display: flex; gap: 2mm;
+    border: 0.25mm dashed #bbb; margin: 0 auto;
+  }
+  .qr { width: 28mm; flex-shrink: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; }
+  .qr img { width: 28mm; height: 28mm; }
+  .qr .cap { font-size: 4.5pt; color: #666; margin-top: 0.5mm; text-align: center; }
+  .body { flex: 1; display: flex; flex-direction: column; min-width: 0; }
+  .brand { font-size: 7.5pt; font-weight: 700; color: #1f4ea1; line-height: 1; }
+  .warn { font-size: 6pt; font-weight: 700; color: #ef6a2a; margin-top: 0.6mm; line-height: 1.1; }
+  .text { font-size: 4.6pt; color: #1a1a1a; margin-top: 0.5mm; line-height: 1.2; }
+  .url { font-size: 4.6pt; font-style: italic; color: #1f4ea1; margin-top: auto; }
+  @media print { body { background: #fff; padding: 0; } .sticker { border: none; } }
+</style>
+</head>
+<body>
+  <div class="sticker">
+    <div class="qr">
+      <img src="../qr/qr_code.png" alt="QR" />
+      <div class="cap">Scan for full safety info</div>
+    </div>
+    <div class="body">
+      <div class="brand">3DPawsnToys</div>
+      <div class="warn">&#9888; SAFETY WARNING &mdash; PLEASE READ</div>
+      <div class="text">3D-printed pet toy made from PLA / PETG / TPU. Non-toxic, NOT edible. For dogs &amp; cats only &mdash; always supervise play. Designed for light-to-moderate chewers; not for power chewers. Choose a size LARGER than your pet's mouth to reduce choking risk. Inspect before &amp; after each use. Discard if cracked, broken, or chewed into pieces &mdash; fragments may cause choking, dental injury, or blockage. Not for children under 3. Clean with mild soap &amp; water; keep from heat. Used at owner's risk. Manufacturer not liable for injury from misuse.</div>
+      <div class="url">samshahdad.github.io/pet-toy-safety &nbsp;|&nbsp; contact@3dpawsandtoys.com</div>
+    </div>
+  </div>
+</body>
+</html>
